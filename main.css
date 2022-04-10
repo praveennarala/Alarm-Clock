@@ -1,0 +1,52 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* alarm clock  */
+.container {
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#app-name{
+  padding: 10px;
+}
+
+/* alarm input */
+#alarm-time{
+  padding: 20px;
+}
+
+button{
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#set-alarm{
+  background-color: blue;
+}
+
+#pause-alarm{
+  background-color: green;
+}
+
+#delete-button{
+  background-color: red;
+}
+
+ul{
+  list-style-type: none;
+}
